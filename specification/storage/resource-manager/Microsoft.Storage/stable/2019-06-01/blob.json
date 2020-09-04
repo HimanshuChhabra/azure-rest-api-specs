@@ -1289,6 +1289,7 @@
         },
         "name": {
           "type": "string",
+          "readOnly": true,
           "description": "Name of the policy. The valid value is AccessTimeTracking. This field is currently read only",
           "enum": [
             "AccessTimeTracking"
@@ -1300,10 +1301,12 @@
         },
         "trackingGranularityInDays": {
           "type": "integer",
+          "readOnly": true,
           "description": "The field specifies blob object tracking granularity in days, typically how often the blob object should be tracked.This field is currently read only with value as 1"
         },
         "blobType": {
           "type": "array",
+          "readOnly": true,
           "items": {
             "type": "string"
           },

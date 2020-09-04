@@ -9,12 +9,7 @@
     "parameters": {
       "properties": {
         "lastAccessTimeTrackingPolicy": {
-          "enable": true,
-          "name": "AccessTimeTracking",
-          "trackingGranularityInDays": 1,
-          "blobType": [
-            "blockBlob"
-          ]
+          "enable": true
         }
       }
     }
